@@ -1,0 +1,123 @@
+/* 重置样式 */
+
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+img,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+html {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    line-height: 1.5em;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sliod {
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+.mid {
+    width: 6000px;
+    position: absolute;
+}
+
+img {
+    width: 800px;
+    height: 600px;
+    float: left;
+}
+
+span {
+    display: block;
+    width: 50px;
+    line-height: 100px;
+    position: absolute;
+    font-size: 30px;
+    background: #555;
+    font-weight: 800;
+    color: #222;
+    top: 300px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 11;
+}
+
+span:hover {
+    background: #888;
+}
+
+span:nth-child(2) {
+    right: 0;
+}
+
+ul {
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 5px;
+    left: 300px;
+    z-index: 11
+}
+
+li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #555;
+    margin-left: 20px;
+}
+
+li:hover {
+    background: #888;
+}
